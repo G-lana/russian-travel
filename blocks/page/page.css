@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter-Regular'),
+  url(../../vendor/fonts/Inter-Regular.woff2),
+  url(../../vendor/fonts/Inter-Regular.woff);
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter-Bold'),
+  url(../../vendor/fonts/Inter-Bold.woff2),
+  url(../../vendor/fonts/Inter-Bold.woff);
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter-Black'),
+  url(../../vendor/fonts/Inter-Black.woff2),
+  url(../../vendor/fonts/Inter-Black.woff);
+}
+.page {
+    background-color: #2A2C2F;
+    min-width: 320px;
+    max-width: 1280px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter',Arial , sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
