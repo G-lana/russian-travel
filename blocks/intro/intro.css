@@ -1,4 +1,8 @@
 .intro {
     align-self: start;
+  }
+@media screen and (min-width: 984px) {
+  .intro {
     max-width: 690px;
   }
+}

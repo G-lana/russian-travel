@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
   </head>
   <body class="page">
@@ -17,16 +16,18 @@
     </header>
     <main class="content page__content">
       <section class="lead content__lead">
-        <h1 class="lead__title">Путешествия по России</h1>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <img
-          class="lead__image"
-          src="./images/lead-polka.jpg"
-          alt="девушка в вагоне поезда"
-        />
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img
+            class="lead__image"
+            src="./images/lead-polka.jpg"
+            alt="девушка в вагоне поезда"
+          />
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro content__intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -42,11 +43,23 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li><b>Часовых поясов</b> 11</li>
-          <li><b>Объектов природного наследия ЮНЕСКО</b> 12</li>
-          <li><b>Объектов культурного наследия ЮНЕСКО</b> 16</li>
-          <li><b>Природных заповедников</b> 105</li>
-          <li><b>Аэропортов</b> 241</li>
+          <li><span class="intro__list-bold">Часовых поясов</span> 11</li>
+          <li>
+            <span class="intro__list-bold"
+              >Объектов природного наследия ЮНЕСКО</span
+            >
+            12
+          </li>
+          <li>
+            <span class="intro__list-bold"
+              >Объектов культурного наследия ЮНЕСКО</span
+            >
+            16
+          </li>
+          <li>
+            <span class="intro__list-bold">Природных заповедников</span> 105
+          </li>
+          <li><span class="intro__list-bold">Аэропортов</span> 241</li>
         </ul>
       </section>
       <section class="photo-grid content__photo-grid">
@@ -125,7 +138,7 @@
             src="./images/place-kosa.jpg"
             alt="Куршская коса"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
               горизонта — спокойного Куршского залива с одной стороны и
@@ -158,7 +171,7 @@
             src="./images/place-kolsky.jpg"
             alt="Полуостров Кольский"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
               тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -191,7 +204,7 @@
             src="./images/place-altai.jpg"
             alt="Алтай"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
               гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -223,7 +236,7 @@
             src="./images/place-winter-baikal.jpg"
             alt="Байкал"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также
               знают, что это самый большой источник пресной воды и одно из
@@ -251,7 +264,7 @@
             src="./images/place-karelia.jpg"
             alt="Карелия"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
               сибирская лиственница не растёт западнее Водлозера. Зато здесь она
@@ -272,7 +285,7 @@
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="_blank"
         >
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.

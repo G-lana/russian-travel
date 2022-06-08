@@ -2,4 +2,7 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 18px;
+    align-self: end;
+    height: min-content;
+    margin-bottom: 8px;
   }
